@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Notebook and Python artefacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# R / Shiny deployment config (contains account details)
+.Rhistory
+.RData
+.Rproj.user/
+rsconnect/
+
+# Model checkpoints and large raw data
+*.h5
+*.keras
+*.pkl
+data/raw/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
